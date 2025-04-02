@@ -8,7 +8,9 @@
 name: Call a reusable workflow and use its outputs
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+        - main
 
 jobs:
   job1:
