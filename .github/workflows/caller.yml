@@ -1,0 +1,6 @@
+name: Caller Workflow
+on: push
+
+jobs:
+  call_reusable_workflow:
+    uses: Bis321/fourth/.github/workflows/output.yml@main
