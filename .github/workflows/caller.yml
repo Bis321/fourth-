@@ -14,7 +14,7 @@ on:
 
 jobs:
   job1:
-    uses: Bis321/fourth/.github/workflows/output.yml@main
+    uses: Bis321/fourth-/.github/workflows/output.yml@main
 
   job2:
     runs-on: ubuntu-latest
